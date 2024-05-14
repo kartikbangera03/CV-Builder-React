@@ -1,0 +1,90 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./Fonts/Roboto-Black.ttf);
+} 
+
+*{
+    box-sizing: border-box;
+}
+
+.educationeHeadingIcon{
+    font-family: Roboto-Black;
+ 
+
+}
+
+
+.educationInfoContainer{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    /* padding: 0px 5%; */
+    height: fit-content;
+    
+
+}
+
+
+.educationHeadingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid lightgray; */
+    font-size: 25px;
+    padding: 0px 5%;
+}
+
+button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+}
+
+li{
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.eachDegreeEntry{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding: 0px 5%;
+    height: 40px;
+    /* border: 2px solid grey; */
+}
+
+
+
+.addButtonContainer{
+    /* height: 40px; */
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.addExperienceButton{
+    border-radius: 25px;
+    border: 3px solid lightgray;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eachDegreeEntry:hover{
+    background-color: gainsboro;
+}
+
+button:hover{
+    background-color: gainsboro;
+}

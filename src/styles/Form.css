@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.educationForm{
+    padding: 0px 5%;
+}
+form{
+    margin-top: 10px;
+    
+}
+.formBottomButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid blue; */
+}
+
+.bottomButtons{
+    width: 70px;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.rightButtons{
+    display: flex;
+    gap: 10px;
+}
+.deleteButton{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+.saveButton{
+    background-color: green;
+    color: white;
+    font-weight: bold;
+}

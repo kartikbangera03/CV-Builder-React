@@ -1,0 +1,80 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./Fonts/Roboto-Black.ttf);
+} 
+
+.workExpInfoContainer{
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: black;
+ 
+    height: fit-content;
+}
+
+.workHeadingIcon{
+    font-family: Roboto-Black;
+}
+
+.workExpHeadingContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid lightgray; */
+    padding: 0px 5%;
+    /* padding: 0px 5%; */
+    /* background-color: white; */
+    /* border-radius: 30px; */
+}
+
+button{
+    background-color: white;
+    border: none;
+    height: 40px;
+    border-radius: 30px;
+}
+
+li{
+    list-style: none;
+    padding-left: 10px;
+
+}
+
+.eachWorkExpEntry{
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid lightgray;
+    padding: 0px 5%;
+    height: 40px;
+    /* border: 2px solid grey; */
+}
+
+.addButtonContainer{
+    /* height: 40px; */
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid green; */
+}
+
+.addExperienceButton{
+    border-radius: 25px;
+    border: 3px solid lightgray;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.eachWorkExpEntry:hover{
+    background-color: gainsboro;
+}
+
+button:hover{
+    background-color: gainsboro;
+}

@@ -1,0 +1,69 @@
+@font-face {
+    font-family: Roboto-Black;
+    src: url(./Fonts/Roboto-Black.ttf);
+}
+
+
+*{
+    box-sizing: border-box;
+}
+
+form{
+    /* border-radius: 3px; */
+    display: flex;
+    flex-direction: column;
+    margin-top: -25px;
+}
+
+input{
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 10px;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: -15px;
+    outline: none;
+    -webkit-transition: 0.25s;
+    transition: 0.25s;
+}
+
+.personalInfoForm{
+    border-radius: 10px;
+    background-color: white;
+    padding: 2% 5%;
+}
+
+
+.formButtons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personalInfoHeading{
+    font-family: Roboto-Black;
+    margin-bottom: -12px;
+    font-size: 25px;
+}
+
+.labelContainer{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 2%;
+}
+
+label{
+    font-weight: bold;
+}
+
+small{
+    color: grey;
+}
+
+input:focus{
+    outline: none;
+    border: 2px solid dodgerblue;
+    box-shadow: 2px 2px 10px 2px lightgray;
+}
